@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeladosBH.Core", "src\GeladosBH.Core\GeladosBH.Core.csproj", "{593838D4-B5F9-45A0-9CB2-F1A8F297AA69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeladosBH.Data", "src\GeladosBH.Data\GeladosBH.Data.csproj", "{D528D69A-56D5-4931-969A-CF367F0705EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeladosBH.Domain", "src\GeladosBH.Domain\GeladosBH.Domain.csproj", "{859B90FF-E843-42E4-BF0A-E3EAA261333A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CE76FAEF-CEB7-4422-B9CC-3A92077C5193}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeladosBH.Domain.Tests", "tests\GeladosBH.Domain.Tests\GeladosBH.Domain.Tests.csproj", "{8FEA7D4C-73EA-416E-9E41-2B28C965288C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeladosBH.API", "src\GeladosBH.API\GeladosBH.API.csproj", "{7E90D940-27A6-4576-A98A-8DA602F0DBE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeladosBH.Api.Tests", "tests\GeladosBH.Api.Tests\GeladosBH.Api.Tests.csproj", "{F47E9AAA-8906-4E3F-A995-0424B661FC09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{593838D4-B5F9-45A0-9CB2-F1A8F297AA69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593838D4-B5F9-45A0-9CB2-F1A8F297AA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593838D4-B5F9-45A0-9CB2-F1A8F297AA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593838D4-B5F9-45A0-9CB2-F1A8F297AA69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D528D69A-56D5-4931-969A-CF367F0705EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D528D69A-56D5-4931-969A-CF367F0705EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D528D69A-56D5-4931-969A-CF367F0705EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D528D69A-56D5-4931-969A-CF367F0705EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{859B90FF-E843-42E4-BF0A-E3EAA261333A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859B90FF-E843-42E4-BF0A-E3EAA261333A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859B90FF-E843-42E4-BF0A-E3EAA261333A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859B90FF-E843-42E4-BF0A-E3EAA261333A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FEA7D4C-73EA-416E-9E41-2B28C965288C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FEA7D4C-73EA-416E-9E41-2B28C965288C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FEA7D4C-73EA-416E-9E41-2B28C965288C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FEA7D4C-73EA-416E-9E41-2B28C965288C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E90D940-27A6-4576-A98A-8DA602F0DBE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E90D940-27A6-4576-A98A-8DA602F0DBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E90D940-27A6-4576-A98A-8DA602F0DBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E90D940-27A6-4576-A98A-8DA602F0DBE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47E9AAA-8906-4E3F-A995-0424B661FC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47E9AAA-8906-4E3F-A995-0424B661FC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47E9AAA-8906-4E3F-A995-0424B661FC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47E9AAA-8906-4E3F-A995-0424B661FC09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FEA7D4C-73EA-416E-9E41-2B28C965288C} = {CE76FAEF-CEB7-4422-B9CC-3A92077C5193}
+		{F47E9AAA-8906-4E3F-A995-0424B661FC09} = {CE76FAEF-CEB7-4422-B9CC-3A92077C5193}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72CC047A-CE96-4D0B-81D6-E35EDEAB4FEC}
+	EndGlobalSection
+EndGlobal
